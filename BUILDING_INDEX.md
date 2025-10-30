@@ -15,7 +15,7 @@ After running this command each paper should have its own folder with a manuscri
 <img width="441" height="314" alt="image" src="https://github.com/user-attachments/assets/4f201907-f5f7-4e18-95d0-bd2a36177431" />
 
 - GROBID for getting paper header info like DOI, authors, etc.
-- Shared prompt definitions and helper utilities bundled here for image narration, document cleaning, structured extraction, and response parsing.
+- Shared [prompt](/prompts.py) definitions and helper utilities bundled here for image narration, document cleaning, structured extraction, and response parsing.
 
 ## Data cleaning flow (High level overview)
 
