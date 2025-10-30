@@ -12,8 +12,9 @@ mineru -p <input_path_to_pdfs> -o <output_path_dir>
 
 After running this command each paper should have its own folder with a manuscript file plus a `vlm/images` subdirectory for figures. Eg. below.
 
+<img width="441" height="314" alt="image" src="https://github.com/user-attachments/assets/4f201907-f5f7-4e18-95d0-bd2a36177431" />
+
 - GROBID for getting paper header info like DOI, authors, etc.
-- Environment variables (via `.env`) that hold keys for LLM batch uploads, GROBID processing, and any alternate DOI lookup service.
 - Shared prompt definitions and helper utilities bundled here for image narration, document cleaning, structured extraction, and response parsing.
 
 ## Data cleaning flow (High level overview)
